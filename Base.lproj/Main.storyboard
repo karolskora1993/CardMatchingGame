@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8W-Kk-uw4">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="81" height="122"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uWo-lC-WeV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aG1-yd-Bfc">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="20" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GQM-sd-qvg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7S-I4-YpY">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="20" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xpv-Rp-8gz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HY1-QI-uW4">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="181" width="109" height="153"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="81" height="122"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xx-W7-IwA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thq-Ue-iXr">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="181" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OXh-HC-VHS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nE1-dU-0u3">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="181" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdk-Df-5Cf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pcb-3F-9Pn">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="342" width="109" height="153"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="81" height="122"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaH-Mt-h2P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdZ-C4-mEi">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="342" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8H7-4U-hV8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhI-HN-oHE">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="342" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dq4-I2-Lwr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXh-Tc-Y5R">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="342" width="109" height="153"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="81" height="122"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="509" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="heA-Gs-g2c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYE-7T-R8J">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="342" width="109" height="153"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="509" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eew-fz-qnC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq6-FH-OJ3">
+                                <rect key="frame" x="20" y="20" width="109" height="153"/>
+                                <state key="normal" backgroundImage="cardback"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="342" width="109" height="153"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="509" width="109" height="153"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCardButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3nh-of-K4O"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bp8-dn-1YE">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="559" width="360" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="680" width="360" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32992169071449701" green="0.64739350630769232" blue="0.012449875121301732" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="aG1-yd-Bfc"/>
+                                <exclude reference="m7S-I4-YpY"/>
+                                <exclude reference="HY1-QI-uW4"/>
+                                <exclude reference="thq-Ue-iXr"/>
+                                <exclude reference="nE1-dU-0u3"/>
+                                <exclude reference="Pcb-3F-9Pn"/>
+                                <exclude reference="cdZ-C4-mEi"/>
+                                <exclude reference="jhI-HN-oHE"/>
+                                <exclude reference="oXh-Tc-Y5R"/>
+                                <exclude reference="kYE-7T-R8J"/>
+                                <exclude reference="cq6-FH-OJ3"/>
+                                <exclude reference="Bp8-dn-1YE"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="aG1-yd-Bfc"/>
+                                <include reference="m7S-I4-YpY"/>
+                                <include reference="HY1-QI-uW4"/>
+                                <include reference="thq-Ue-iXr"/>
+                                <include reference="nE1-dU-0u3"/>
+                                <include reference="Pcb-3F-9Pn"/>
+                                <include reference="cdZ-C4-mEi"/>
+                                <include reference="jhI-HN-oHE"/>
+                                <include reference="Bp8-dn-1YE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="oXh-Tc-Y5R"/>
+                                <include reference="kYE-7T-R8J"/>
+                                <include reference="cq6-FH-OJ3"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="score" destination="Bp8-dn-1YE" id="90i-Ji-K7k"/>
+                        <outletCollection property="cards" destination="L8W-Kk-uw4" id="pRO-x0-lRU"/>
+                        <outletCollection property="cards" destination="aG1-yd-Bfc" id="o7z-f3-3eM"/>
+                        <outletCollection property="cards" destination="m7S-I4-YpY" id="nJh-na-pX6"/>
+                        <outletCollection property="cards" destination="HY1-QI-uW4" id="XwN-zU-VZE"/>
+                        <outletCollection property="cards" destination="thq-Ue-iXr" id="DZf-Fi-kaC"/>
+                        <outletCollection property="cards" destination="nE1-dU-0u3" id="b4v-ir-k7R"/>
+                        <outletCollection property="cards" destination="Pcb-3F-9Pn" id="jvG-p6-tPL"/>
+                        <outletCollection property="cards" destination="cdZ-C4-mEi" id="lHp-kB-qYC"/>
+                        <outletCollection property="cards" destination="jhI-HN-oHE" id="Ybk-OC-hyA"/>
+                        <outletCollection property="cards" destination="oXh-Tc-Y5R" id="R1R-o5-z5L"/>
+                        <outletCollection property="cards" destination="kYE-7T-R8J" id="UNc-fS-R6d"/>
+                        <outletCollection property="cards" destination="cq6-FH-OJ3" id="biE-HC-YDv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cardback" width="628" height="934"/>
+    </resources>
+</document>
